@@ -1,0 +1,9 @@
+Week 1 Day 1 – voltage divider
+
+A  12 V, 10k/10k  → 6.00 V  (hand = sim)
+B  12 V, 10k/2.2k → 2.16 V
+C   5 V, 4.7k/10k → 3.40 V
+
+Stall preview: 12 V / 2 Ω = 6 A. That current is why the chip resets.
+
+Transistor switch: 3.3 V base turns 5 V LED. Pin never sourced the LED current.
