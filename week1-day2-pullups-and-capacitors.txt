@@ -1,0 +1,9 @@
+Week 1 Day 2 – pull-ups and capacitors
+
+Open switch ≠ 0 V. Open = floating.
+Pull-down: resistor to GND, idle low.
+Pull-up: resistor to Vcc, switch to GND, idle high. This is INPUT_PULLUP.
+10k is the default. 100 Ω wastes current. 1M is too weak for noise.
+
+Capacitor: I = C dV/dt. Local charge. Buys time. Does not create energy.
+Decoupling: 100 nF at the chip for fast spikes. Bulk cap for fat, slow current.
