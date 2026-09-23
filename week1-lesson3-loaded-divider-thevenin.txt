@@ -1,0 +1,11 @@
+Week 1 Lesson 3 — loaded divider + Thevenin
+
+12V 10k/10k unloaded → 6.00 V
+Rth = R1 || R2 = 5k. Tap = 6V behind 5k.
+
+Load 100k → 5.71 V
+Load  10k → 4.00 V
+Load   1k → 1.00 V
+
+Rule: RL >= 10 × Rth or compute parallel every time.
+Open switch still ≠ 0 V. That was Lesson 2.
