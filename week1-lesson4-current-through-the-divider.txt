@@ -1,0 +1,9 @@
+Week 1 Lesson 4 — 24 Sep — current through the divider
+
+I = Vin / (R1 + Rbot)
+Unloaded 12V 10k/10k: 6.00 V, 0.60 mA
+Load 10k: 4.00 V, 0.80 mA, split 0.40 + 0.40
+Load 1k:  1.00 V, 1.10 mA
+
+Ruder load → voltage down, source current up.
+Stall is the same law with a tiny R.
