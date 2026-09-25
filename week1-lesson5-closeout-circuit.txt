@@ -1,0 +1,11 @@
+Week 1 Lesson 5 – 25 Sep – closeout circuit
+
+5V, pull-up 10k + switch to GND → BTN
+BTN → 1k → NPN base, emitter GND
+5V → 330 → LED → collector
+Open: LED on (BTN ~1.1 V with base connected; table says 5 V unloaded).
+Closed: BTN=0 LED off.
+
+Divider 1k/2k: 3.33 V, 1.67 mA
+Load 2k on tap: 2.50 V, 2.50 mA
+Divider senses. It does not power a chip.
