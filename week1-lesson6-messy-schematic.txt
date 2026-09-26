@@ -1,0 +1,11 @@
+Week 1 Lesson 6 – 26 Sep – messy schematic
+
+Block B: 5V, 4.7k/4.7k, RL=10k
+Rbot ≈ 3.20k, SENSE ≈ 2.03 V, I ≈ 0.63 mA
+Unloaded would be 2.50 V
+
+Block A: pull-up 10k, switch to GND, 1k into NPN, 220 + LED
+Open: LED on (BTN ~1.1 V with base connected). Closed: BTN=0 LED off.
+
+Trap: RL lives on SENSE, not BTN.
+SENSE must not jump when the button is pressed.
