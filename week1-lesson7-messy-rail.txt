@@ -1,0 +1,15 @@
+Week 1 Lesson 7 – 29 Sep – messy rail
+
+Vin = 5 V
+Blocks share only 5 V and ground.
+
+Q1 tap A unloaded: 2.5 V
+Q2 Rbot = 5k    Vout A loaded = 1.67 V
+Q3 I through R1A = 0.33 mA
+Q4 tap B unloaded = 1.67 V
+Q5 pressed: BASE = 0.7 V    I_LED = 9.09 mA
+Q6 released: I_LED = 0
+Q7 R2S to Vin, released: I_LED = 9.09 mA
+
+Trap: do not wire Tap A / Tap B / BASE together.
+Q7 idle is not off. BASE pulled to Vin, NPN stays on.
