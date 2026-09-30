@@ -1,0 +1,16 @@
+Week 1 Lesson 7 closeout – 29 Sep
+
+Q   predicted              Falstad              % error
+1   2.50 V                 2.50 V               0%
+2   1.66 V                 1.7 V                2.4%
+3   0.33 mA                333.3 µA             1.0%
+4   1.67 V                 1.667 V              0.2%
+5   BASE 0.70 V            655.5 mV             6.4%
+    ILED 9.09 mA           9.49 mA              4.4%
+6   ILED 0                 10 pA                ~0
+7   ILED 9.09 mA           4.366 mA             52%
+
+Q7 note: paper assumed saturate. Falstad Ib ≈ 43 µA, β≈100, Ic ≈ 4.3 mA.
+On, not saturated. Idle still not off.
+
+Fix: move R2S to BASE→GND. Re-sim: released ILED ≈ 0.
