@@ -1,11 +1,10 @@
 Week 2 Lesson 8A – 1 Oct – rail sag
 
-Q1 tau = 0.1 s           V(tau) = 3.16 V           V(5tau) = 4.97 V
-Q2 Vout = 4.17 V          sag = 0.83 V
+Q1 tau = 100 ms           V(tau) = 3.16 V           V(5tau) = 4.966 V
+Q2 Vout = 4.166 V         sag = 0.833 V
 Q3 Rth =           tau =           min Vout =           droop =           dV check =
 Q4 tau =           5tau =
 Q5 min Vout =
    sentence:
 
 Paper through Q2. Q3–Q5 next session.
-Falstad not opened for Q3–Q5.
